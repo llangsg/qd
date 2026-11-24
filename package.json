@@ -1,0 +1,33 @@
+{
+  "name": "opencode-qoder-magpie",
+  "version": "0.1.0",
+  "description": "Your Qoder, Qoder CN and QwenWork subscription as a provider for OpenCode and magpie, with the device identity derived instead of read from an installed Qoder",
+  "type": "module",
+  "main": "./opencode.mjs",
+  "exports": {
+    ".": "./opencode2.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "opencode.mjs",
+    "opencode2.mjs",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "LICENSE-CLIProxyAPI"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "magpie",
+    "qoder",
+    "qoder-cn",
+    "qwenwork",
+    "千问办公",
+    "provider"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "bun test"
+  }
+}
